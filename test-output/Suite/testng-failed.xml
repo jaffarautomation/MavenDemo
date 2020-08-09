@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test name="To Test Google Title">
+    <classes>
+      <class name="Google.GoogleTitle"/>
+    </classes>
+  </test> <!-- To Test Google Title -->
+</suite> <!-- Failed suite [Suite] -->
