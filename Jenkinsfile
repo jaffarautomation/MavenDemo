@@ -1,6 +1,6 @@
 node{
   stage('SCM Checkout'){
-  git https://github.com/jaffarautomation/MavenDemo
+  git 'https://github.com/jaffarautomation/MavenDemo'
   }
   
   stage('Compiler')
