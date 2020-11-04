@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-08-09T13:52:25Z" name="Suite" finished-at="2020-08-09T13:52:52Z" duration-ms="27729">
+  <suite started-at="2020-09-16T08:25:59Z" name="Suite" finished-at="2020-09-16T08:26:53Z" duration-ms="54105">
     <groups>
     </groups>
-    <test started-at="2020-08-09T13:52:25Z" name="To Test Google Title" finished-at="2020-08-09T13:52:52Z" duration-ms="27729">
+    <test started-at="2020-09-16T08:25:59Z" name="To Test Google Title" finished-at="2020-09-16T08:26:53Z" duration-ms="54105">
       <class name="Google.GoogleTitle">
-        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Google.GoogleTitle@51931956]" started-at="2020-08-09T13:52:25Z" name="BeforeMethod" finished-at="2020-08-09T13:52:44Z" duration-ms="18881" status="PASS">
+        <test-method is-config="true" signature="BeforeMethod()[pri:0, instance:Google.GoogleTitle@51931956]" started-at="2020-09-16T08:25:59Z" name="BeforeMethod" finished-at="2020-09-16T08:26:43Z" duration-ms="44004" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- BeforeMethod -->
-        <test-method signature="Title()[pri:0, instance:Google.GoogleTitle@51931956]" started-at="2020-08-09T13:52:44Z" name="Title" finished-at="2020-08-09T13:52:46Z" duration-ms="2803" status="PASS">
+        <test-method signature="Title()[pri:0, instance:Google.GoogleTitle@51931956]" started-at="2020-09-16T08:26:43Z" name="Title" finished-at="2020-09-16T08:26:47Z" duration-ms="4053" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Title -->
-        <test-method is-config="true" signature="Quit()[pri:0, instance:Google.GoogleTitle@51931956]" started-at="2020-08-09T13:52:46Z" name="Quit" finished-at="2020-08-09T13:52:52Z" duration-ms="6003" status="PASS">
+        <test-method is-config="true" signature="Quit()[pri:0, instance:Google.GoogleTitle@51931956]" started-at="2020-09-16T08:26:47Z" name="Quit" finished-at="2020-09-16T08:26:53Z" duration-ms="5987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Quit -->
