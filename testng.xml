@@ -3,7 +3,7 @@
 <suite name="Suite">
   <test name="To Test Google Title">
     <classes>
-      <class name="Google.GoogleTitle"/>
+      <class name="Google.app"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->
