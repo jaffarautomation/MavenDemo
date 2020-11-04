@@ -1,8 +1,12 @@
 package Google;
 
+import org.testng.annotations.Test;
+
 public class app {
 
-	public static void main(String[] args) {
+	
+	@Test(priority =1)
+	public static void ma() {
 
 		
 		
@@ -10,6 +14,19 @@ public class app {
 
 		
 		System.out.println("Hello");
+	}
+	
+	
+	
+	@Test(priority =2)
+	public static void man() {
+
+		
+		
+		// TODO Auto-generated method stub
+
+		
+		System.out.println("Hello man ");
 	}
 
 }
