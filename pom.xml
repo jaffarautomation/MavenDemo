@@ -1,4 +1,6 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>mavenDemo</groupId>
@@ -15,8 +17,21 @@
 
 	<scm>
 		<developerConnection>scm:git:https://github.com/jaffarautomation/MavenDemo</developerConnection>
-	  <tag>HEAD</tag>
-  </scm>
+		<tag>HEAD</tag>
+	</scm>
+
+	<distributionManagement>
+		<snapshotRepository>
+			<id>nexus-releases</id>
+			<name>DemoRepo</name>
+			<url>http://localhost:8081</url>
+		</snapshotRepository>
+		<repository>
+			<id>repo-id2</id>
+			<name>my repository</name>
+			<url>file:///path/to/repo</url>
+		</repository>
+	</distributionManagement>
 
 	<dependencies>
 		<dependency>
