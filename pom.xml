@@ -24,7 +24,7 @@
 		<snapshotRepository>
 			<id>nexus-releases</id>
 			<name>DemoRepo</name>
-			<url>http://localhost:8081</url>
+			<url>http://localhost:8081/repository/DemoRepo/</url>
 		</snapshotRepository>
 		<repository>
 			<id>repo-id2</id>
